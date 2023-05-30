@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--secondaryColor);
+}
+
+.container {
+    max-width: 480px;
+    width: 100%;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color: var(--mainColor);
+    border-radius: 20px;
+}
+
+:root {
+    --mainColor: #f39c12;
+    --secondaryColor: #ecf0f1;
+    --alertColor: #c0392b;
+}

@@ -1,0 +1,35 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.inputList {
+    display: flex;
+    margin: 5px 0;
+    color: black;
+}
+
+.inputTitle {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.inputInput {
+    width: 60%;
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--secondaryColor);
+    font-size: 16px;
+}
+
+.inputLabel, .inputSpan {
+    display: block;
+    font-size: 18px;
+    max-width: 60px;
+    width: 100%;
+    margin-left: 8px;
+    font-weight: bold;
+}
